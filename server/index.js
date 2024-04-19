@@ -7,7 +7,8 @@ const registerdata = require('./models/UserReg')
 const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 
-//..............nitin
+//..............nitin singh
+
 app.use(cors());
 app.use(express.json());
 app.use(bodyparser.urlencoded({ extended: true }));
